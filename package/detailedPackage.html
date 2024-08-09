@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="detailedPackage.css" />
+    <title>Package Details</title>
+  </head>
+  <body>
+    <div id="navBar">
+      <div id="navSec1">
+        <img src="../sources/images/logo-removebg.png" alt="Logo" />
+        <div id="items">
+          <a href="../home/home.html" style="color: black">Home</a>
+        </div>
+      </div>
+      <div id="navSec2">
+        <div id="btn">
+          <button id="logoutButton">
+            <a href="../index.html" onclick="logout()">Logout</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="packageDetails">
+      <div id="mainImageContainer">
+        <img id="mainImage" src="" alt="Main Image" />
+      </div>
+      <div id="details">
+        <h1 id="placeName">Place Name</h1>
+        <p id="description">Description of the package.</p>
+        <p id="price">Price: ₹XXXX</p>
+        <p id="days">Number of Days: XX</p>
+        <div id="visitingSpots">
+          <h2>Visiting Spots:</h2>
+          <ul id="spots">
+            <li>Spot 1</li>
+            <li>Spot 2</li>
+          </ul>
+        </div>
+        <div id="subImagesContainer"></div>
+        <button id="bookButton">Book</button>
+      </div>
+    </div>
+
+    <script src="./detailedPackage.js"></script>
+  </body>
+</html>

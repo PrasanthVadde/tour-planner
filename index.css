@@ -1,0 +1,268 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+#navBar.scrolled {
+  background-color: #fff;
+}
+
+#navSec1 img {
+  width: 80px;
+}
+
+#navSec1 a,
+#navSec2 a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+#navSec2 button {
+  background-color: transparent;
+  border: 1px solid;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#navSec2 button a {
+  text-decoration: none;
+}
+
+#navSec2 button:hover {
+  background-color: #444;
+}
+
+#section1 {
+  padding: 100px 40px 60px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+#con h1 {
+  font-size: 2.5em;
+  margin: 0 0 20px;
+}
+
+#con p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+#con button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#con button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#section2 {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+
+#about h1 {
+  font-size: 2em;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#about a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#locations #set {
+  flex: 1 1 22%;
+  margin: 10px;
+}
+
+#locations img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#footSec1 h2 {
+  margin: 0 0 10px;
+}
+
+#footSec1 p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.icon a {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#footSec2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#footSec2 a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 15px;
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  #navBar {
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  #navSec1 img {
+    width: 80px;
+  }
+
+  #navSec2 button {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  #con {
+    padding: 20px;
+  }
+
+  #con h1 {
+    font-size: 1.8em;
+  }
+
+  #con p {
+    font-size: 1em;
+  }
+
+  #locations {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #locations #set {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #footer {
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  #navBar {
+    flex-direction: row;
+    padding: 15px;
+  }
+
+  #navSec1 img {
+    width: 100px;
+  }
+
+  #navSec2 button {
+    margin: 0 5px;
+  }
+
+  #con {
+    padding: 30px;
+  }
+
+  #con h1 {
+    font-size: 2em;
+  }
+
+  #con p {
+    font-size: 1.1em;
+  }
+
+  #locations {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #locations #set {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  #navSec1 img {
+    width: 80px;
+  }
+
+  #navSec2 button {
+    margin: 0 10px;
+  }
+
+  #con {
+    padding: 50px;
+  }
+
+  #con h1 {
+    font-size: 2.5em;
+  }
+
+  #con p {
+    font-size: 1.2em;
+  }
+
+  #locations {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  #locations #set {
+    width: 23%;
+    margin: 10px;
+  }
+}

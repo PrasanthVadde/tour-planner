@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="shortcut icon"
+      href="./sources/images/logo-removebg.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>WX</title>
+  </head>
+  <body>
+    <!-- section 1 -->
+    <div id="section1">
+      <div id="navBar">
+        <div id="navSec1">
+          <img src="./sources/images/logo-removebg.png" alt="" />
+          <div id="items">
+            <a href="">Home</a>
+          </div>
+        </div>
+        <div id="navSec2">
+          <div id="btn">
+            <button style="background-color: transparent">
+              <a href="./registration/login.html">Login</a>
+            </button>
+            <button style="background-color: #ff0000">
+              <a href="./registration/registration.html" style="color: white"
+                >SignUp</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="con">
+        <h1>A travel planner for everyone</h1>
+        <p style="text-align: justify">
+          Discover Your Next Adventure Our website is designed to inspire and
+          simplify your travel planning. Whether you're dreaming of a sun-soaked
+          beach vacation, a thrilling city escape, a serene mountain retreat, or
+          an exotic international adventure, WanderLuxe offers an array of
+          curated travel options to suit every taste and budget.
+        </p>
+        <button><a href="./registration/login.html">Start Planning</a></button>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div id="section2">
+      <div id="about">
+        <h1>Discover your next favorite destination</h1>
+        <p>
+          Get inspired from guides around the world — with expert tips and
+          recommendations from the Wanderlux eXploration community.
+          <a href="">See all Wanderlux eXploration travel guides.</a>
+        </p>
+      </div>
+
+      <div id="locations">
+        <div id="set">
+          <a href=""><img src="./sources/images/flex_img/1.jpg" alt="" /></a>
+        </div>
+        <div id="set">
+          <a href=""><img src="./sources/images/flex_img/2.jpg" alt="" /></a>
+        </div>
+        <div id="set">
+          <a href=""><img src="./sources/images/flex_img/3.jpg" alt="" /></a>
+        </div>
+        <div id="set">
+          <a href=""><img src="./sources/images/flex_img/4.jpg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div id="footSec1">
+        <h2>Wanderlux</h2>
+        <p>
+          Welcome to Wanderlux, you go-to source for all your travel needs.
+          Whether you're looking for exciting vacation packages, reliable travel
+          services, or helpful travel tips, we've got you covered. Plan your
+          next adventure with us!
+        </p>
+        <div class="icon">
+          <a href=""
+            ><i class="fa-brands fa-pinterest" style="color: #e60023"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-facebook-f" style="color: #4267b2"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""
+            ><i class="fa-brands fa-youtube" style="color: #ff0000"></i
+          ></a>
+        </div>
+      </div>
+
+      <div id="footSec2">
+        <a href="">Home</a>
+        <a href="">services</a>
+        <a href="">About</a>
+        <a href="">Contact Us</a>
+        <a href="">Terms & Conditions</a>
+        <a href="">Privacy policy &copy;</a>
+      </div>
+    </footer>
+    <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navBar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </body>
+</html>

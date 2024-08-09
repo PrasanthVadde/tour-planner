@@ -1,0 +1,152 @@
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  height: 20px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#navSec1 {
+  display: flex;
+  align-items: center;
+}
+
+#navSec1 img {
+  height: 50px;
+}
+
+#items a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navSec2 #btn {
+  display: flex;
+  align-items: center;
+}
+
+#logoutButton {
+  background: #ff4b5c;
+  border: none;
+  padding: 6px;
+  margin-right: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logoutButton a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.travel-package-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.travel-package-card {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.travel-package-card img {
+  width: 100%;
+  height: 350px;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.modal-images {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-images img {
+  margin-right: 10px;
+  max-width: 200px;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+button {
+  width: 100px;
+  align-self: center;
+}
+
+.travel-package-card:hover {
+  box-shadow: 8px 8px 8px gray;
+}
+
+@media (max-width: 576px) {
+  .travel-package-card {
+    max-width: 100%;
+    margin: 5px;
+  }
+
+  .travel-package-card img {
+    height: 200px;
+  }
+
+  .modal-images img {
+    max-width: 150px;
+    max-height: 100px;
+  }
+
+  button {
+    width: 80px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .travel-package-card {
+    max-width: 45%;
+  }
+
+  .travel-package-card img {
+    height: 250px;
+  }
+
+  .modal-images img {
+    max-width: 180px;
+    max-height: 120px;
+  }
+
+  button {
+    width: 90px;
+  }
+}
+
+@media (min-width: 769px) {
+  .travel-package-card {
+    max-width: 300px;
+  }
+
+  .travel-package-card img {
+    height: 350px;
+  }
+
+  .modal-images img {
+    max-width: 200px;
+    max-height: 150px;
+  }
+
+  button {
+    width: 100px;
+  }
+}

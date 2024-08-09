@@ -1,0 +1,32 @@
+{
+  "userDetails": [
+    {
+      "id": "118e",
+      "userName": "thulasi",
+      "email": "thulasi@email.com",
+      "password": "Thulasi@123",
+      "MobileNumber": "7995462141"
+    },
+    {
+      "id": "e8c6",
+      "userName": "prasanth",
+      "email": "prasanth@email.com",
+      "password": "Prasanth@1",
+      "MobileNumber": "7013533448"
+    },
+    {
+      "id": "f76d",
+      "userName": "manojkumar",
+      "email": "manojalladi12@gmail.com",
+      "password": "Manu@123",
+      "MobileNumber": "9849454322"
+    },
+    {
+      "id": "0445",
+      "userName": "sanju",
+      "email": "rapid64211@gmail.com",
+      "password": "Sanju@6421",
+      "MobileNumber": "6304801525"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.person-inputs {
+  margin-top: 20px;
+}
+
+.person-inputs .form-group {
+  margin-bottom: 10px;
+}
+
+.person-inputs .form-group input,
+.person-inputs .form-group select {
+  margin-bottom: 5px;
+}
+
+button {
+  width: 100%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #eafaf1;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.remove-person {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.remove-person:hover {
+  text-decoration: underline;
+}
+@media (max-width: 576px) {
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .modal-content {
+    width: 95%;
+    margin: 5% auto;
+  }
+
+  .person-inputs .form-group {
+    margin-bottom: 8px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .form-group {
+    margin-bottom: 12px;
+  }
+
+  .modal-content {
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  .person-inputs .form-group {
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .modal-content {
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  .person-inputs .form-group {
+    margin-bottom: 12px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,707 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "location_name": "Taj Mahal",
+      "images": [
+        {
+          "url": "",
+          "description": "Front view of the Taj Mahal"
+        },
+        {
+          "url": "",
+          "description": "Close-up of the marble inlay work"
+        },
+        {
+          "url": "",
+          "description": "Reflection of Taj Mahal in the water pool"
+        }
+      ],
+      "description": "The Taj Mahal is a white marble mausoleum located in Agra, India. It was commissioned by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal."
+    },
+    {
+      "id": 2,
+      "location_name": "Qutub Minar",
+      "images": [
+        {
+          "url": "",
+          "description": "The towering Qutub Minar"
+        },
+        {
+          "url": "",
+          "description": "Close-up of the carvings on Qutub Minar"
+        },
+        {
+          "url": "",
+          "description": "The Qutub Minar with surrounding ruins"
+        }
+      ],
+      "description": "Qutub Minar is a UNESCO World Heritage Site located in Delhi, India. It is a 73-meter tall minaret made of red sandstone, known for its intricate carvings."
+    },
+    {
+      "id": 3,
+      "location_name": "Red Fort",
+      "images": [
+        {
+          "url": "",
+          "description": "Main entrance of Red Fort"
+        },
+        {
+          "url": "",
+          "description": "Interior courtyard of Red Fort"
+        },
+        {
+          "url": "",
+          "description": "Panoramic view of Red Fort"
+        }
+      ],
+      "description": "The Red Fort, also known as Lal Qila, is a historic fortification in the city of Delhi, India. It served as the main residence of the Mughal emperors for around 200 years."
+    },
+    {
+      "id": 4,
+      "location_name": "Gateway of India",
+      "images": [
+        {
+          "url": "",
+          "description": "The iconic Gateway of India"
+        },
+        {
+          "url": "",
+          "description": "View of Gateway of India from the sea"
+        },
+        {
+          "url": "",
+          "description": "Gateway of India illuminated at night"
+        }
+      ],
+      "description": "The Gateway of India is an arch-monument located in Mumbai, India. It was built to commemorate the visit of King George V and Queen Mary to India in 1911."
+    },
+    {
+      "id": 5,
+      "location_name": "Jaipur City Palace",
+      "images": [
+        {
+          "url": "",
+          "description": "Facade of Jaipur City Palace"
+        },
+        {
+          "url": "",
+          "description": "Courtyard of the City Palace"
+        },
+        {
+          "url": "",
+          "description": "Beautiful interiors of City Palace"
+        }
+      ],
+      "description": "The Jaipur City Palace is a historic palace complex situated in the heart of Jaipur, Rajasthan. It is known for its stunning architecture and rich history."
+    },
+    {
+      "id": 6,
+      "location_name": "Mysore Palace",
+      "images": [
+        {
+          "url": "",
+          "description": "Exterior view of Mysore Palace"
+        },
+        {
+          "url": "",
+          "description": "Intricate interiors of Mysore Palace"
+        },
+        {
+          "url": "",
+          "description": "Mysore Palace illuminated during festivals"
+        }
+      ],
+      "description": "Mysore Palace, also known as the Amba Vilas Palace, is a historic palace located in Mysore, Karnataka. It is known for its magnificent architecture and royal heritage."
+    },
+    {
+      "id": 7,
+      "location_name": "Hawa Mahal",
+      "images": [
+        {
+          "url": "",
+          "description": "Front view of Hawa Mahal"
+        },
+        {
+          "url": "",
+          "description": "Detail of the lattice windows of Hawa Mahal"
+        },
+        {
+          "url": "",
+          "description": "Panoramic view of Hawa Mahal from the top"
+        }
+      ],
+      "description": "Hawa Mahal, or the Palace of Winds, is a palace in Jaipur, Rajasthan. It is known for its unique façade with 953 small windows, designed to allow royal ladies to observe street festivities without being seen."
+    },
+    {
+      "id": 8,
+      "location_name": "Elephanta Caves",
+      "images": [
+        {
+          "url": "",
+          "description": "Entrance to Elephanta Caves"
+        },
+        {
+          "url": "",
+          "description": "Sculptures inside Elephanta Caves"
+        },
+        {
+          "url": "",
+          "description": "Rock-cut temples of Elephanta Caves"
+        }
+      ],
+      "description": "The Elephanta Caves are a network of sculpted caves located on Elephanta Island near Mumbai. They are famous for their rock-cut temples and sculptures dedicated to Hindu gods."
+    },
+    {
+      "id": 9,
+      "location_name": "Konark Sun Temple",
+      "images": [
+        {
+          "url": "",
+          "description": "The Konark Sun Temple's main structure"
+        },
+        {
+          "url": "",
+          "description": "Intricate carvings on Konark Sun Temple"
+        },
+        {
+          "url": "",
+          "description": "Sun Temple's chariot wheel sculptures"
+        }
+      ],
+      "description": "The Konark Sun Temple is a 13th-century CE Sun temple at Konark, Odisha. It is known for its exquisite architecture and intricate sculptures, representing the chariot of the Sun god."
+    },
+    {
+      "id": 10,
+      "location_name": "Ranthambore National Park",
+      "images": [
+        {
+          "url": "",
+          "description": "Tiger in Ranthambore National Park"
+        },
+        {
+          "url": "",
+          "description": "Scenic landscape of Ranthambore"
+        },
+        {
+          "url": "",
+          "description": "Ancient ruins within Ranthambore National Park"
+        }
+      ],
+      "description": "Ranthambore National Park is a wildlife reserve in Rajasthan, India. It is known for its population of Bengal tigers and its scenic beauty with ancient ruins."
+    },
+    {
+      "id": 11,
+      "location_name": "Hampi",
+      "images": [
+        {
+          "url": "",
+          "description": "Ruins of Hampi temples"
+        },
+        {
+          "url": "",
+          "description": "Stone chariot at Hampi"
+        },
+        {
+          "url": "",
+          "description": "Panoramic view of Hampi landscape"
+        }
+      ],
+      "description": "Hampi is a UNESCO World Heritage Site in Karnataka. It is known for its well-preserved ruins of the Vijayanagara Empire, including temples, monuments, and palaces."
+    },
+    {
+      "id": 12,
+      "location_name": "Shimla",
+      "images": [
+        {
+          "url": "",
+          "description": "View of Shimla from the hills"
+        },
+        {
+          "url": "",
+          "description": "The Mall Road in Shimla"
+        },
+        {
+          "url": "",
+          "description": "Snow-capped mountains around Shimla"
+        }
+      ],
+      "description": "Shimla is the capital city of Himachal Pradesh, known for its scenic beauty and pleasant climate. It is a popular hill station surrounded by picturesque hills."
+    },
+    {
+      "id": 13,
+      "location_name": "Goa Beaches",
+      "images": [
+        {
+          "url": "",
+          "description": "Sunset at a Goa beach"
+        },
+        {
+          "url": "",
+          "description": "Golden sands of Goa beaches"
+        },
+        {
+          "url": "",
+          "description": "Beachside shacks in Goa"
+        }
+      ],
+      "description": "Goa is known for its stunning beaches, vibrant nightlife, and Portuguese heritage. Its beaches, including Anjuna, Baga, and Calangute, are famous for their golden sands and clear waters."
+    },
+    {
+      "id": 14,
+      "location_name": "Kerala Backwaters",
+      "images": [
+        {
+          "url": "",
+          "description": "Houseboat cruising in Kerala backwaters"
+        },
+        {
+          "url": "",
+          "description": "Scenic view of backwaters and lush greenery"
+        },
+        {
+          "url": "",
+          "description": "Traditional Kerala houseboat"
+        }
+      ],
+      "description": "The backwaters of Kerala are a network of interconnected canals, rivers, lakes, and inlets. They offer a unique experience of tranquil boat rides and scenic landscapes."
+    },
+    {
+      "id": 15,
+      "location_name": "Jaisalmer Fort",
+      "images": [
+        {
+          "url": "",
+          "description": "The grand entrance of Jaisalmer Fort"
+        },
+        {
+          "url": "",
+          "description": "Interior view of Jaisalmer Fort"
+        },
+        {
+          "url": "",
+          "description": "Golden sandstone walls of Jaisalmer Fort"
+        }
+      ],
+      "description": "Jaisalmer Fort, also known as Sonar Quila, is a 12th-century fort located in the city of Jaisalmer, Rajasthan. It is renowned for its stunning golden sandstone architecture."
+    },
+    {
+      "id": 16,
+      "location_name": "Meenakshi Temple",
+      "images": [
+        {
+          "url": "",
+          "description": "Main entrance tower of Meenakshi Temple"
+        },
+        {
+          "url": "",
+          "description": "Colorful sculptures of Meenakshi Temple"
+        },
+        {
+          "url": "",
+          "description": "Interior of the Meenakshi Temple"
+        }
+      ],
+      "description": "The Meenakshi Temple is a historic Hindu temple located in Madurai, Tamil Nadu. It is known for its intricate sculptures and towering gopurams (gateway towers)."
+    },
+    {
+      "id": 17,
+      "location_name": "Ajanta Caves",
+      "images": [
+        {
+          "url": "",
+          "description": "Entrance of Ajanta Caves"
+        },
+        {
+          "url": "",
+          "description": "Buddhist murals inside Ajanta Caves"
+        },
+        {
+          "url": "",
+          "description": "Rock-cut architecture of Ajanta Caves"
+        }
+      ],
+      "description": "The Ajanta Caves are a group of Buddhist rock-cut caves located in Maharashtra. They are known for their beautiful frescoes and sculptures depicting the life of Buddha."
+    },
+    {
+      "id": 18,
+      "location_name": "Mahabalipuram",
+      "images": [
+        {
+          "url": "",
+          "description": "Shore Temple at Mahabalipuram"
+        },
+        {
+          "url": "",
+          "description": "Rock-cut sculptures in Mahabalipuram"
+        },
+        {
+          "url": "",
+          "description": "Panoramic view of Mahabalipuram coastline"
+        }
+      ],
+      "description": "Mahabalipuram, also known as Mamallapuram, is a historic town in Tamil Nadu. It is known for its ancient rock-cut temples and sculptures, including the Shore Temple and the Five Rathas."
+    },
+    {
+      "id": 19,
+      "location_name": "Rishikesh",
+      "images": [
+        {
+          "url": "",
+          "description": "Ganges River flowing through Rishikesh"
+        },
+        {
+          "url": "",
+          "description": "Laxman Jhula suspension bridge in Rishikesh"
+        },
+        {
+          "url": "",
+          "description": "Yoga classes by the Ganges in Rishikesh"
+        }
+      ],
+      "description": "Rishikesh is a city in Uttarakhand known for its spiritual significance and yoga retreats. It is located along the banks of the Ganges River and is a popular destination for meditation and adventure sports."
+    },
+    {
+      "id": 20,
+      "location_name": "Varanasi",
+      "images": [
+        {
+          "url": "",
+          "description": "Ganga Aarti at Varanasi ghats"
+        },
+        {
+          "url": "",
+          "description": "Sunrise over the Ganges in Varanasi"
+        },
+        {
+          "url": "",
+          "description": "Traditional boat ride on the Ganges"
+        }
+      ],
+      "description": "Varanasi, also known as Benares or Kashi, is one of the oldest living cities in the world. It is famous for its ghats along the Ganges River, spiritual rituals, and vibrant culture."
+    },
+    {
+      "id": 21,
+      "location_name": "Darjeeling",
+      "images": [
+        {
+          "url": "",
+          "description": "View of Kanchenjunga from Darjeeling"
+        },
+        {
+          "url": "",
+          "description": "Darjeeling Himalayan Railway"
+        },
+        {
+          "url": "",
+          "description": "Tea gardens in Darjeeling"
+        }
+      ],
+      "description": "Darjeeling is a hill station in West Bengal, known for its tea plantations, stunning views of the Himalayas, and the famous Darjeeling Himalayan Railway."
+    },
+    {
+      "id": 22,
+      "location_name": "Agra Fort",
+      "images": [
+        {
+          "url": "",
+          "description": "Entrance gate of Agra Fort"
+        },
+        {
+          "url": "",
+          "description": "Interior courtyard of Agra Fort"
+        },
+        {
+          "url": "",
+          "description": "Panoramic view from Agra Fort"
+        }
+      ],
+      "description": "Agra Fort is a historical fort located in Agra, India. It served as the main residence of the Mughal emperors until 1638 and is known for its impressive Mughal architecture."
+    },
+    {
+      "id": 23,
+      "location_name": "Jodhpur",
+      "images": [
+        {
+          "url": "",
+          "description": "Mehrangarh Fort in Jodhpur"
+        },
+        {
+          "url": "",
+          "description": "Blue houses of Jodhpur"
+        },
+        {
+          "url": "",
+          "description": "Clock Tower and Sardar Market in Jodhpur"
+        }
+      ],
+      "description": "Jodhpur, known as the Blue City, is located in Rajasthan. It is famous for its blue-painted houses, the majestic Mehrangarh Fort, and vibrant markets."
+    },
+    {
+      "id": 24,
+      "location_name": "Chennai",
+      "images": [
+        {
+          "url": "",
+          "description": "Marina Beach in Chennai"
+        },
+        {
+          "url": "",
+          "description": "Kapaleeshwarar Temple in Chennai"
+        },
+        {
+          "url": "",
+          "description": "Fort St. George in Chennai"
+        }
+      ],
+      "description": "Chennai is the capital city of Tamil Nadu, known for its beautiful beaches, historic temples, and colonial architecture. Marina Beach is one of its most popular attractions."
+    },
+    {
+      "id": 25,
+      "location_name": "Udaipur",
+      "images": [
+        {
+          "url": "",
+          "description": "City Palace overlooking Lake Pichola"
+        },
+        {
+          "url": "",
+          "description": "Jag Mandir on Lake Pichola"
+        },
+        {
+          "url": "",
+          "description": "Sunset view from Udaipur"
+        }
+      ],
+      "description": "Udaipur, also known as the City of Lakes, is famous for its picturesque lakes, palaces, and romantic ambiance. The City Palace and Lake Pichola are major attractions."
+    },
+    {
+      "id": 26,
+      "location_name": "Pushkar",
+      "images": [
+        {
+          "url": "",
+          "description": "Pushkar Lake during sunset"
+        },
+        {
+          "url": "",
+          "description": "Brahma Temple in Pushkar"
+        },
+        {
+          "url": "",
+          "description": "Pushkar Camel Fair"
+        }
+      ],
+      "description": "Pushkar is a town in Rajasthan known for its holy lake, Brahma Temple, and the annual Pushkar Camel Fair. It is a significant pilgrimage site for Hindus."
+    },
+    {
+      "id": 27,
+      "location_name": "Andaman Islands",
+      "images": [
+        {
+          "url": "",
+          "description": "Crystal-clear waters of Andaman Islands"
+        },
+        {
+          "url": "",
+          "description": "Beautiful beaches of Andaman Islands"
+        },
+        {
+          "url": "",
+          "description": "Coral reefs in Andaman Islands"
+        }
+      ],
+      "description": "The Andaman Islands are a group of islands in the Bay of Bengal known for their pristine beaches, clear waters, and vibrant coral reefs. They offer excellent opportunities for snorkeling and diving."
+    },
+    {
+      "id": 28,
+      "location_name": "Sikkim",
+      "images": [
+        {
+          "url": "",
+          "description": "View of Kanchenjunga from Sikkim"
+        },
+        {
+          "url": "",
+          "description": "Buddhist monasteries in Sikkim"
+        },
+        {
+          "url": "",
+          "description": "Trekking in Sikkim"
+        }
+      ],
+      "description": "Sikkim is a small state in northeastern India known for its stunning views of the Himalayas, including Kanchenjunga, the third-highest peak in the world. It is also known for its monasteries and trekking routes."
+    },
+    {
+      "id": 29,
+      "location_name": "Delhi",
+      "images": [
+        {
+          "url": "",
+          "description": "India Gate in Delhi"
+        },
+        {
+          "url": "",
+          "description": "Humayun's Tomb in Delhi"
+        },
+        {
+          "url": "",
+          "description": "Lotus Temple in Delhi"
+        }
+      ],
+      "description": "Delhi, the capital city of India, is known for its rich history and diverse culture. Major attractions include India Gate, Humayun's Tomb, and the Lotus Temple."
+    },
+    {
+      "id": 30,
+      "location_name": "Bangalore",
+      "images": [
+        {
+          "url": "",
+          "description": "Garden view in Bangalore"
+        },
+        {
+          "url": "",
+          "description": "Bangalore Palace"
+        },
+        {
+          "url": "",
+          "description": "Ulsoor Lake in Bangalore"
+        }
+      ],
+      "description": "Bangalore, also known as Bengaluru, is known for its green spaces, pleasant climate, and tech industry. Key attractions include Bangalore Palace, Ulsoor Lake, and various gardens."
+    },
+    {
+      "id": 31,
+      "location_name": "Amritsar",
+      "images": [
+        {
+          "url": "",
+          "description": "Golden Temple in Amritsar"
+        },
+        {
+          "url": "",
+          "description": "Jallianwala Bagh Memorial"
+        },
+        {
+          "url": "",
+          "description": "Wagah Border Ceremony"
+        }
+      ],
+      "description": "Amritsar, located in Punjab, is known for the Golden Temple, a major Sikh pilgrimage site. It also features the Jallianwala Bagh Memorial and the Wagah Border Ceremony."
+    },
+    {
+      "id": 32,
+      "location_name": "Khajuraho",
+      "images": [
+        {
+          "url": "",
+          "description": "Temples of Khajuraho"
+        },
+        {
+          "url": "",
+          "description": "Erotic sculptures in Khajuraho temples"
+        },
+        {
+          "url": "",
+          "description": "Panoramic view of Khajuraho temples"
+        }
+      ],
+      "description": "Khajuraho is known for its stunning temples with intricate erotic sculptures. It is a UNESCO World Heritage Site located in Madhya Pradesh."
+    },
+    {
+      "id": 33,
+      "location_name": "Pondicherry",
+      "images": [
+        {
+          "url": "",
+          "description": "Promenade Beach in Pondicherry"
+        },
+        {
+          "url": "",
+          "description": "French colonial architecture in Pondicherry"
+        },
+        {
+          "url": "",
+          "description": "Sri Aurobindo Ashram"
+        }
+      ],
+      "description": "Pondicherry is known for its French colonial architecture, serene beaches, and spiritual ashrams. It offers a unique blend of Indian and French cultures."
+    },
+    {
+      "id": 34,
+      "location_name": "Gulmarg",
+      "images": [
+        {
+          "url": "",
+          "description": "Snow-capped peaks in Gulmarg"
+        },
+        {
+          "url": "",
+          "description": "Gulmarg Gondola ride"
+        },
+        {
+          "url": "",
+          "description": "Green meadows of Gulmarg"
+        }
+      ],
+      "description": "Gulmarg is a popular hill station and ski resort in Jammu and Kashmir. It is known for its stunning snow-capped landscapes and the Gulmarg Gondola, one of the highest cable cars in the world."
+    },
+    {
+      "id": 35,
+      "location_name": "Chandigarh",
+      "images": [
+        {
+          "url": "",
+          "description": "Rock Garden of Chandigarh"
+        },
+        {
+          "url": "",
+          "description": "Sukhna Lake in Chandigarh"
+        },
+        {
+          "url": "",
+          "description": "Rose Garden in Chandigarh"
+        }
+      ],
+      "description": "Chandigarh is a planned city known for its modern architecture, designed by Le Corbusier. Major attractions include the Rock Garden, Sukhna Lake, and Rose Garden."
+    },
+    {
+      "id": 36,
+      "location_name": "Madhurai",
+      "images": [
+        {
+          "url": "",
+          "description": "Meenakshi Temple in Madurai"
+        },
+        {
+          "url": "",
+          "description": "Gopurams of Meenakshi Temple"
+        },
+        {
+          "url": "",
+          "description": "Historic streets of Madurai"
+        }
+      ],
+      "description": "Madurai is an ancient city in Tamil Nadu known for the Meenakshi Temple, a significant Hindu pilgrimage site. It has a rich cultural and historical heritage."
+    },
+    {
+      "id": 37,
+      "location_name": "Ranthambore National Park",
+      "images": [
+        {
+          "url": "",
+          "description": "Royal Bengal Tiger in Ranthambore"
+        },
+        {
+          "url": "",
+          "description": "Ranthambore Fort view from the park"
+        },
+        {
+          "url": "",
+          "description": "Wildlife safari in Ranthambore"
+        }
+      ],
+      "description": "Ranthambore National Park is a renowned wildlife sanctuary in Rajasthan, known for its population of Royal Bengal tigers and diverse wildlife. The park is also home to the historic Ranthambore Fort."
+    }
+  ]
+}
