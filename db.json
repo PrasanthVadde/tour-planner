@@ -1,0 +1,628 @@
+{
+    "travel_packages": [
+      {
+        "id": 1,
+        "place": "Agra",
+        "main_image": "../sources/images/packages/Agra/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Agra/2.jpg",
+          "../sources/images/packages/Agra/3.jpg",
+          "../sources/images/packages/Agra/4.jpg"
+        ],
+        "visiting_spots": [
+          "Taj Mahal",
+          "Agra Fort",
+          "Fatehpur Sikri",
+          "Mehtab Bagh",
+          "Tomb of Itimad-ud-Daulah"
+        ],
+        "no_of_days": 3,
+        "package_price": 9000,
+        "description": "Agra, home to the majestic Taj Mahal, is a city rich in Mughal heritage. Discover its grand architecture and vibrant bazaars."
+      },
+      {
+        "id": 2,
+        "place": "Jaipur",
+        "main_image": "../sources/images/packages/Jaipur/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Jaipur/2.jpg",
+          "../sources/images/packages/Jaipur/3.jpg",
+          "../sources/images/packages/Jaipur/4.jpg",
+          "../sources/images/packages/Jaipur/5.jpg"
+        ],
+        "visiting_spots": [
+          "Hawa Mahal",
+          "Amber Fort",
+          "City Palace",
+          "Jantar Mantar",
+          "Nahargarh Fort",
+          "Jaigarh Fort"
+        ],
+        "no_of_days": 4,
+        "package_price": 12000,
+        "description": "Jaipur, the Pink City, is renowned for its royal palaces, vibrant culture, and exquisite handicrafts."
+      },
+      {
+        "id": 3,
+        "place": "Goa",
+        "main_image": "../sources/images/packages/Goa/5.jpg",
+        "sub_images": [
+          "../sources/images/packages/Goa/1.jpg",
+          "../sources/images/packages/Goa/2.jpg",
+          "../sources/images/packages/Goa/3.jpg",
+          "../sources/images/packages/Goa/4.jpg"
+        ],
+        "visiting_spots": [
+          "Baga Beach",
+          "Basilica of Bom Jesus",
+          "Dudhsagar Falls",
+          "Anjuna Beach",
+          "Chapora Fort",
+          "Se Cathedral"
+        ],
+        "no_of_days": 5,
+        "package_price": 15000,
+        "description": "Goa, famous for its pristine beaches, vibrant nightlife, and Portuguese heritage, offers a perfect blend of relaxation and adventure."
+      },
+      {
+        "id": 4,
+        "place": "Kerala",
+        "main_image": "../sources/images/packages/Kerala/5.jpg",
+        "sub_images": [
+          "../sources/images/packages/Kerala/1.jpg",
+          "../sources/images/packages/Kerala/2.jpg",
+          "../sources/images/packages/Kerala/3.jpg",
+          "../sources/images/packages/Kerala/4.jpg"
+        ],
+        "visiting_spots": [
+          "Munnar",
+          "Alleppey",
+          "Thekkady",
+          "Kumarakom",
+          "Cochin",
+          "Wayanad",
+          "Anantha Padmanabha Swamy"
+        ],
+        "no_of_days": 6,
+        "package_price": 15000,
+        "description": "Kerala, known as 'God's Own Country,' is a haven of serene backwaters, lush tea gardens, and exotic wildlife."
+      },
+      {
+        "id": 5,
+        "place": "Delhi",
+        "main_image": "../sources/images/packages/Delhi/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Delhi/5.jpg",
+          "../sources/images/packages/Delhi/3.jpg",
+          "../sources/images/packages/Delhi/4.jpg",
+          "../sources/images/packages/Delhi/2.jpg"
+        ],
+        "visiting_spots": [
+          "Red Fort",
+          "Qutub Minar",
+          "India Gate",
+          "Humayun's Tomb",
+          "Lotus Temple",
+          "Akshardham Temple"
+        ],
+        "no_of_days": 3,
+        "package_price": 12000,
+        "description": "Delhi, the capital city, is a bustling metropolis with a rich history, grand monuments, and a melting pot of cultures."
+      },
+      {
+        "id": 6,
+        "place": "Mumbai",
+        "main_image": "../sources/images/packages/Mumbai/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Mumbai/2.jpg",
+          "../sources/images/packages/Mumbai/3.jpg",
+          "../sources/images/packages/Mumbai/4.jpg",
+          "../sources/images/packages/Mumbai/5.jpg",
+          "../sources/images/packages/Mumbai/6.jpg"
+        ],
+        "visiting_spots": [
+          "Gateway of India",
+          "Marine Drive",
+          "Elephanta Caves",
+          "Chhatrapati Shivaji Maharaj Terminus",
+          "Siddhivinayak Temple",
+          "Juhu Beach"
+        ],
+        "no_of_days": 4,
+        "package_price": 15000,
+        "description": "Mumbai, the City of Dreams, is a fast-paced city known for its Bollywood industry, historic landmarks, and vibrant street life."
+      },
+      {
+        "id": 7,
+        "place": "Udaipur",
+        "main_image": "../sources/images/packages/Udaipur/5.jpg",
+        "sub_images": [
+          "../sources/images/packages/Udaipur/1.jpg",
+          "../sources/images/packages/Udaipur/2.jpg",
+          "../sources/images/packages/Udaipur/3.jpg",
+          "../sources/images/packages/Udaipur/4.jpg"
+        ],
+        "visiting_spots": [
+          "City Palace",
+          "Lake Pichola",
+          "Jag Mandir",
+          "Saheliyon ki Bari",
+          "Jagdish Temple"
+        ],
+        "no_of_days": 3,
+        "package_price": 8000,
+        "description": "Udaipur, the City of Lakes, is famed for its picturesque palaces, tranquil lakes, and romantic ambiance."
+      },
+      {
+        "id": 8,
+        "place": "Rishikesh",
+        "main_image": "../sources/images/packages/Rishikesh/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Rishikesh/2.jpg",
+          "../sources/images/packages/Rishikesh/4.jpg",
+          "../sources/images/packages/Rishikesh/3.jpg"
+        ],
+        "visiting_spots": [
+          "Laxman Jhula",
+          "Triveni Ghat",
+          "Neelkanth Mahadev Temple",
+          "Parmarth Niketan",
+          "Ram Jhula"
+        ],
+        "no_of_days": 4,
+        "package_price": 8000,
+        "description": "Rishikesh, the Yoga Capital of the World, is a spiritual haven nestled in the foothills of the Himalayas, known for its yoga retreats and adventure sports."
+      },
+      {
+        "id": 9,
+        "place": "Shimla",
+        "main_image": "../sources/images/packages/Shimla/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Shimla/2.jpg",
+          "../sources/images/packages/Shimla/3.jpg",
+          "../sources/images/packages/Shimla/4.jpg",
+          ""
+        ],
+        "visiting_spots": [
+          "The Ridge",
+          "Mall Road",
+          "Jakhoo Temple",
+          "Christ Church",
+          "Kufri"
+        ],
+        "no_of_days": 5,
+        "package_price": 12000,
+        "description": "Shimla, the Queen of Hills, offers a charming colonial ambiance, scenic views, and a pleasant climate year-round."
+      },
+      {
+        "id": 10,
+        "place": "Varanasi",
+        "main_image": "../sources/images/packages/Varanasi/4.webp",
+        "sub_images": [
+          "../sources/images/packages/Varanasi/1.jpg",
+          "../sources/images/packages/Varanasi/2.jpg",
+          "../sources/images/packages/Varanasi/5.jpg",
+          "../sources/images/packages/Varanasi/3.jpg"
+        ],
+        "visiting_spots": [
+          "Kashi Vishwanath Temple",
+          "Dashashwamedh Ghat",
+          "Sarnath",
+          "Manikarnika Ghat",
+          "Assi Ghat"
+        ],
+        "no_of_days": 3,
+        "package_price": 14000,
+        "description": "Varanasi, one of the oldest living cities, is a spiritual hub on the banks of the Ganges, renowned for its ghats and temples."
+      },
+      {
+        "id": 11,
+        "place": "Jaisalmer",
+        "main_image": "../sources/images/packages/Jaisalmer/3.jpg",
+        "sub_images": [
+          "../sources/images/packages/Jaisalmer/1.webp",
+          "../sources/images/packages/Jaisalmer/2.jpg",
+          "../sources/images/packages/Jaisalmer/4.jpg"
+        ],
+        "visiting_spots": [
+          "Jaisalmer Fort",
+          "Sam Sand Dunes",
+          "Patwon Ki Haveli",
+          "Gadisar Lake",
+          "Bada Bagh"
+        ],
+        "no_of_days": 3,
+        "package_price": 17000,
+        "description": "Jaisalmer, the Golden City, is known for its yellow sandstone architecture, desert safaris, and vibrant culture."
+      },
+      {
+        "id": 12,
+        "place": "Manali",
+        "main_image": "../sources/images/packages/Manali/1.jpeg",
+        "sub_images": [
+          "../sources/images/packages/Manali/2.jpg",
+          "../sources/images/packages/Manali/3.webp",
+          "../sources/images/packages/Manali/5.webp"
+        ],
+        "visiting_spots": [
+          "Rohtang Pass",
+          "Solang Valley",
+          "Hidimba Devi Temple",
+          "Manu Temple",
+          "Old Manali"
+        ],
+        "no_of_days": 5,
+        "package_price": 20000,
+        "description": "Manali, a popular hill station, is a paradise for adventure lovers with its snow-capped peaks, lush valleys, and outdoor activities."
+      },
+      {
+        "id": 13,
+        "place": "Kolkata",
+        "main_image": "../sources/images/packages/Kolkata/3.jpg",
+        "sub_images": [
+          "../sources/images/packages/Kolkata/1.webp",
+          "../sources/images/packages/Kolkata/4.jpg",
+          "../sources/images/packages/Kolkata/5.jpg"
+        ],
+        "visiting_spots": [
+          "Victoria Memorial",
+          "Howrah Bridge",
+          "Dakshineswar Kali Temple",
+          "Indian Museum",
+          "Belur Math"
+        ],
+        "no_of_days": 4,
+        "package_price": 16000,
+        "description": "Kolkata, the City of Joy, is known for its rich history, artistic heritage, and literary culture."
+      },
+      {
+        "id": 14,
+        "place": "Darjeeling",
+        "main_image": "../sources/images/packages/Darjeeling/2.jpg",
+        "sub_images": [
+          "../sources/images/packages/Darjeeling/4.jpg",
+          "../sources/images/packages/Darjeeling/3.jpg",
+          "../sources/images/packages/Darjeeling/1.jpg"
+        ],
+        "visiting_spots": [
+          "Tiger Hill",
+          "Batasia Loop",
+          "Himalayan Mountaineering Institute",
+          "Japanese Peace Pagoda",
+          "Darjeeling Zoo"
+        ],
+        "no_of_days": 4,
+        "package_price": 18000,
+        "description": "Darjeeling, famous for its tea plantations and stunning views of the Himalayas, is a charming hill station with a colonial vibe."
+      },
+      {
+        "id": 15,
+        "place": "Mysore",
+        "main_image": "../sources/images/packages/Mysore/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Mysore/2.jpg",
+          "../sources/images/packages/Mysore/3.jpg",
+          "../sources/images/packages/Mysore/4.jpg"
+        ],
+        "visiting_spots": [
+          "Mysore Palace",
+          "Brindavan Gardens",
+          "Chamundi Hill",
+          "St. Philomena's Church",
+          "Mysore Zoo"
+        ],
+        "no_of_days": 3,
+        "package_price": 14000,
+        "description": "Mysore, the City of Palaces, is known for its royal heritage, grand palaces, and vibrant festivals."
+      },
+      {
+        "id": 16,
+        "place": "Ooty",
+        "main_image": "../sources/images/packages/Ooty/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Ooty/2.jpg",
+          "../sources/images/packages/Ooty/4.jpg",
+          "../sources/images/packages/Ooty/6.jpg"
+        ],
+        "visiting_spots": [
+          "Botanical Gardens",
+          "Ooty Lake",
+          "Doddabetta Peak",
+          "Rose Garden",
+          "Pykara Lake"
+        ],
+        "no_of_days": 4,
+        "package_price": 16000,
+        "description": "Ooty, the Queen of Hill Stations, is known for its picturesque landscapes, lush green valleys, and pleasant climate."
+      },
+      {
+        "id": 17,
+        "place": "Coorg",
+        "main_image": "../sources/images/packages/Coorg/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Coorg/2.jpg",
+          "../sources/images/packages/Coorg/3.jpg",
+          "../sources/images/packages/Coorg/5.jpg"
+        ],
+        "visiting_spots": [
+          "Abbey Falls",
+          "Raja's Seat",
+          "Dubare Elephant Camp",
+          "Nisargadhama",
+          "Tadiandamol Peak"
+        ],
+        "no_of_days": 4,
+        "package_price": 18000,
+        "description": "Coorg, also known as Kodagu, is a beautiful hill station known for its coffee plantations, lush greenery, and serene environment."
+      },
+      {
+        "id": 18,
+        "place": "Hampi",
+        "main_image": "../sources/images/packages/Hampi/5.jpg",
+        "sub_images": [
+          "../sources/images/packages/Hampi/4.avif",
+          "../sources/images/packages/Hampi/5.jpg",
+          "../sources/images/packages/Hampi/6.jpg",
+          ""
+        ],
+        "visiting_spots": [
+          "Virupaksha Temple",
+          "Vittala Temple",
+          "Hampi Bazaar",
+          "Lotus Mahal",
+          "Elephant Stables",
+          "Matanga Hill"
+        ],
+        "no_of_days": 4,
+        "package_price": 20000,
+        "description": "Hampi, a UNESCO World Heritage Site, is famous for its stunning ruins and temples, showcasing the grandeur of the Vijayanagara Empire."
+      },
+      {
+        "id": 19,
+        "place": "Amritsar",
+        "main_image": "../sources/images/packages/Amritsar/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Amritsar/3.jpg",
+          "../sources/images/packages/Amritsar/4.jpg",
+          "../sources/images/packages/Amritsar/5.jpeg"
+        ],
+        "visiting_spots": [
+          "Golden Temple",
+          "Jallianwala Bagh",
+          "Wagah Border",
+          "Partition Museum",
+          "Akal Takht"
+        ],
+        "no_of_days": 3,
+        "package_price": 14000,
+        "description": "Amritsar, home to the Golden Temple, is a city with a deep spiritual heritage and a significant history in India's independence movement."
+      },
+      {
+        "id": 20,
+        "place": "Ranthambore",
+        "main_image": "../sources/images/packages/Ranthambore/4.jpg",
+        "sub_images": [
+          "../sources/images/packages/Ranthambore/1.jpg",
+          "../sources/images/packages/Ranthambore/6.jpg",
+          "../sources/images/packages/Ranthambore/5.webp",
+          ""
+        ],
+        "visiting_spots": [
+          "Ranthambore National Park",
+          "Ranthambore Fort",
+          "Trinetra Ganesh Temple",
+          "Surwal Lake",
+          "Kachida Valley"
+        ],
+        "no_of_days": 3,
+        "package_price": 15000,
+        "description": "Ranthambore, famous for its national park and tiger reserve, is a paradise for wildlife enthusiasts and nature lovers."
+      },
+      {
+        "id": 21,
+        "place": "Chennai",
+        "main_image": "../sources/images/packages/Chennai/4.jpg",
+        "sub_images": [
+          "../sources/images/packages/Chennai/1.jpg",
+          "../sources/images/packages/Chennai/2.jpg",
+          "../sources/images/packages/Chennai/3.jpg"
+        ],
+        "visiting_spots": [
+          "Marina Beach",
+          "Kapaleeshwarar Temple",
+          "Fort St. George",
+          "Government Museum",
+          "Elliot's Beach"
+        ],
+        "no_of_days": 3,
+        "package_price": 9000,
+        "description": "Chennai, the cultural capital of South India, is known for its vibrant heritage, beautiful temples, and bustling markets."
+      },
+      {
+        "id": 22,
+        "place": "Kakinada",
+        "main_image": "../sources/images/packages/Kakinada/2.jpg",
+        "sub_images": [
+          "../sources/images/packages/Kakinada/1.jpg",
+          "../sources/images/packages/Kakinada/3.avif",
+          "../sources/images/packages/Kakinada/5.jpg"
+        ],
+        "visiting_spots": [
+          "Kakinada Beach",
+          "Coringa Wildlife Sanctuary",
+          "Peddaganjammapeta",
+          "Lakshmi Narasimha Swamy Temple",
+          "Kambala Park"
+        ],
+        "no_of_days": 3,
+        "package_price": 8000,
+        "description": "Kakinada, a coastal city, is known for its beautiful beaches, mangrove forests, and cultural landmarks."
+      },
+      {
+        "id": 23,
+        "place": "Nellore",
+        "main_image": "../sources/images/packages/Nellore/2.webp",
+        "sub_images": [
+          "../sources/images/packages/Nellore/3.jpg",
+          "../sources/images/packages/Nellore/4.jpg",
+          "../sources/images/packages/Nellore/1.jpg"
+        ],
+        "visiting_spots": [
+          "Nellapattu Bird Sanctuary",
+          "Jonnawada",
+          "Kaundinya Wildlife Sanctuary",
+          "Sri Ranganathaswamy Temple",
+          "Udayagiri Fort"
+        ],
+        "no_of_days": 3,
+        "package_price": 9000,
+        "description": "Nellore is known for its historical temples, bird sanctuaries, and vibrant cultural festivals."
+      },
+      {
+        "id": 24,
+        "place": "Warangal",
+        "main_image": "../sources/images/packages/Warangal/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Warangal/2.jpg",
+          "../sources/images/packages/Warangal/3.jpg",
+          "../sources/images/packages/Warangal/4.jpg"
+        ],
+        "visiting_spots": [
+          "Warangal Fort",
+          "Thousand Pillar Temple",
+          "Bhadrakali Temple",
+          "Ramappa Temple",
+          "Kakatiya Rock Garden"
+        ],
+        "no_of_days": 3,
+        "package_price": 8000,
+        "description": "Warangal is known for its ancient temples and ruins, reflecting the grandeur of the Kakatiya dynasty."
+      },
+      {
+        "id": 25,
+        "place": "Hyderabad",
+        "main_image": "../sources/images/packages/Hyderabad/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Hyderabad/6.jpg",
+          "../sources/images/packages/Hyderabad/4.jpg",
+          "../sources/images/packages/Hyderabad/3.jpg",
+          "../sources/images/packages/Hyderabad/2.jpg"
+        ],
+        "visiting_spots": [
+          "Charminar",
+          "Golconda Fort",
+          "Hussain Sagar Lake",
+          "Ramoji Film City",
+          "Salar Jung Museum",
+          "Qutb Shahi Tombs"
+        ],
+        "no_of_days": 4,
+        "package_price": 9500,
+        "description": "Hyderabad, the City of Pearls, is known for its historic monuments, rich culture, and delicious cuisine."
+      },
+      {
+        "id": 26,
+        "place": "Vijayawada",
+        "main_image": "../sources/images/packages/Vijayawada/4.jpg",
+        "sub_images": [
+          "../sources/images/packages/Vijayawada/3.jpg",
+          "../sources/images/packages/Vijayawada/1.jpg",
+          "../sources/images/packages/Vijayawada/2.jpg"
+        ],
+        "visiting_spots": [
+          "Kanaka Durga Temple",
+          "Prakasam Barrage",
+          "Undavalli Caves",
+          "Mangalagiri Temple",
+          "Bapu Museum"
+        ],
+        "no_of_days": 3,
+        "package_price": 10000,
+        "description": "Vijayawada, a major city in Andhra Pradesh, is known for its temples, riverfronts, and cultural landmarks."
+      },
+      {
+        "id": 27,
+        "place": "Rajahmundry",
+        "main_image": "../sources/images/packages/Rajahmundry/2.jpg",
+        "sub_images": [
+          "../sources/images/packages/Rajahmundry/3.jpg",
+          "../sources/images/packages/Rajahmundry/1.jpg",
+          "../sources/images/packages/Rajahmundry/4.jpg"
+        ],
+        "visiting_spots": [
+          "Godavari Bridge",
+          "Papi Hills",
+          "Dowleswaram Barrage",
+          "Venkateswara Temple",
+          "Kondapalli Fort"
+        ],
+        "no_of_days": 3,
+        "package_price": 9000,
+        "description": "Rajahmundry, located on the banks of the Godavari River, is known for its scenic beauty and historic temples."
+      },
+      {
+        "id": 28,
+        "place": "Tirupati",
+        "main_image": "../sources/images/packages/Tirupati/5.jpg",
+        "sub_images": [
+          "../sources/images/packages/Tirupati/1.jpg",
+          "../sources/images/packages/Tirupati/3.jpg",
+          "../sources/images/packages/Tirupati/4.png"
+        ],
+        "visiting_spots": [
+          "Tirumala Venkateswara Temple",
+          "Sri Kapileswara Swamy Temple",
+          "Srinivasa Mangapuram",
+          "Silathoranam",
+          "Sri Kalahasthi",
+          "Kanipakam"
+        ],
+        "no_of_days": 3,
+        "package_price": 10000,
+        "description": "Tirupati, a major pilgrimage destination, is renowned for its sacred temple and vibrant religious atmosphere."
+      },
+      {
+        "id": 29,
+        "place": "Khammam",
+        "main_image": "../sources/images/packages/Khammam/2.jpg",
+        "sub_images": [
+          "../sources/images/packages/Khammam/4.jpg",
+          "../sources/images/packages/Khammam/6.jpg",
+          "../sources/images/packages/Khammam/5.jpg"
+        ],
+        "visiting_spots": [
+          "Khammam Fort",
+          "Pochera Falls",
+          "Lakaram Lake",
+          "Sri Malleswara Swamy Temple",
+          "Kinnerasani Wildlife Sanctuary"
+        ],
+        "no_of_days": 3,
+        "package_price": 8000,
+        "description": "Khammam, known for its historic fort and scenic spots, offers a blend of cultural and natural attractions."
+      },
+      {
+        "id": 30,
+        "place": "Visakhapatnam",
+        "main_image": "../sources/images/packages/Visakhapatnam/1.jpg",
+        "sub_images": [
+          "../sources/images/packages/Visakhapatnam/3.jpg",
+          "../sources/images/packages/Visakhapatnam/4.jpg",
+          "../sources/images/packages/Visakhapatnam/2.jpg"
+        ],
+        "visiting_spots": [
+          "RK Beach",
+          "Kailasagiri",
+          "Simhachalam Temple",
+          "Submarine Museum",
+          "Yarada Beach",
+          "Araku Valley",
+          "Borra Caves"
+        ],
+        "no_of_days": 4,
+        "package_price": 9000,
+        "description": "Visakhapatnam, often referred to as Vizag, is a port city known for its beautiful beaches, scenic hilltops, and cultural heritage."
+      }
+    ]
+  }
+  
