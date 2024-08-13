@@ -1,5 +1,5 @@
 // Fetching travel packages and populating the dropdown
-fetch("http://localhost:8000/travel_packages")
+fetch("https://tour-planner-user-and-package-data.onrender.com/travel_packages")
   .then((response) => response.json())
   .then((data) => {
     const travelPackageSelect = document.getElementById("travelPackage");
@@ -78,7 +78,7 @@ document
       });
     }
 
-    fetch(`http://localhost:8000/travel_packages/${selectedPackageId}`)
+    fetch(`https://tour-planner-user-and-package-data.onrender.com/travel_packages/${selectedPackageId}`)
       .then((response) => response.json())
       .then((data) => {
         const endDate = new Date(startDate);
