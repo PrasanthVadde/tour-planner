@@ -1,7 +1,7 @@
 let places = []; // Initialize an empty array to store places
 
 // Fetch data from the server
-fetch("http://localhost:8000/travel_packages")
+fetch("https://tour-planner-user-and-package-data.onrender.com/travel_packages")
   .then((response) => response.json())
   .then((data) => {
     places = data; // Store the fetched data in the places array

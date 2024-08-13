@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const placeId = urlParams.get("packageId");
 
   if (placeId) {
-    fetch(`http://localhost:8000/travel_packages/${placeId}`)
+    fetch(`https://tour-planner-user-and-package-data.onrender.com/travel_packages/${placeId}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");

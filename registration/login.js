@@ -42,7 +42,7 @@ function handleSubmit(e) {
     const password = document.querySelector("#password").value;
 
     // URL to fetch user data (assuming JSON file or API)
-    const URL = "http://localhost:3000/userDetails"; // Adjust URL as needed
+    const URL = "https://tour-planner-user-and-package-data.onrender.com/userDetails"; // Adjust URL as needed
 
     fetch(URL)
       .then((response) => {

@@ -1,4 +1,4 @@
-const URL = "http://localhost:8000/travel_packages";
+const URL = "https://tour-planner-user-and-package-data.onrender.com/travel_packages";
 
 async function fetchTravelPackages() {
   try {

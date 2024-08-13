@@ -77,7 +77,7 @@ function validate() {
 
 // Check if user already exists by email
 function checkUserExists(email) {
-  const URL = `http://localhost:3000/userDetails?email=${encodeURIComponent(
+  const URL = `https://tour-planner-user-and-package-data.onrender.com/userDetails?email=${encodeURIComponent(
     email
   )}`;
   return fetch(URL)
@@ -114,7 +114,7 @@ function handleSubmit(e) {
           };
 
           // Simulating a POST request; adjust URL as needed for your actual API
-          const URL = "http://localhost:3000/userDetails";
+          const URL = "https://tour-planner-user-and-package-data.onrender.com/userDetails";
           const options = {
             method: "POST",
             headers: {
